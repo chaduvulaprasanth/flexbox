@@ -1,0 +1,241 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*css starts here*/
+
+
+
+*, *:before, *:after {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+}
+.wrapper {
+	max-width: 960px;
+	margin: 0 auto;
+	padding: 0 20px;
+}
+.header {
+	/*background: linear-gradient(rgb(60, 16, 83),rgb(173, 83, 137)) ;*/
+	background: linear-gradient(to right, #3c1053, #ad5389);
+}
+.headerflex {
+	display: flex;
+	justify-content: space-between;
+}
+.headerflex h1 {
+	padding: 25px 0;
+	color: white;
+}
+.navmenu{
+	padding: 25px 0;
+}
+.navmenu a{
+	text-decoration: none;
+	color: white;
+	padding-left: 15px;
+
+}
+.welcome {
+	display: flex;
+	justify-content: space-between;
+	padding: 13% 0 8% 0;
+}
+.welcomehead {
+	flex-basis: 40%;
+	color: white;
+	font-size: 35px;
+	line-height: 1.5;
+}
+.welcomepara {
+	flex-basis: 40%;
+	color: #B2A0BC;
+	line-height: 1.5;
+	font-size: 15px;
+}
+.welcomepara button{
+	background-color: #5EBD8B;
+	color: white;
+	margin-top: 5%;
+	padding: 10px;
+	text-transform: uppercase;
+}
+.secondrow {
+	display: flex;
+	justify-content: space-between;
+	padding: 6% 0;
+}
+.secondrowhead{
+	flex-basis: 40%;
+}
+.secondrowhead h2 {
+	color: #5C5C5C;
+	font-size: 22px;
+	font-weight: bold;
+}
+.secondrowhead p{
+	padding: 20px 0;
+	line-height: 1.5;
+}
+.secondrowhead button{
+	background-color: transparent;
+	text-transform: uppercase;
+	padding: 10px;
+}
+.secondrowpara {
+	flex-basis: 40%;
+}
+.tickmark{
+	display: flex;
+}
+.tickmark i{
+	color: #5EBD8B;
+	padding-bottom: 8%;
+}
+.tickmark p{
+	color: #B2A0BC;
+	padding-left: 5%;
+	padding-bottom: 8%;
+}
+.thirdrow{
+	display: flex;
+	justify-content: space-between;
+	background-color: white;
+	margin-bottom: 4%;
+	align-items: center;
+
+}
+.thirdrowimage{
+	flex-basis: 25%;
+}
+.thirdrowpara{
+	flex-basis: 40%;	
+}
+.thirdrowpara p {
+	padding: 3% 0;
+
+}
+.thirdrowpara button {
+	background-color: transparent;
+	text-transform: uppercase;
+	padding: 10px;
+
+}
+.grey{
+	background-color: #FAFAFA;
+	padding: 10% 0 6% 0;
+}
+.last p {
+	text-transform: uppercase;
+	padding: 10px;
+	background-color: transparent;
+	text-align: center;	
+}
+.fourthrow{
+	display: flex;
+	justify-content: space-between;
+	padding-top: 10%;
+}
+.fourthrowhead{
+	flex-basis: 40%;
+}
+.fourthrowsocial{
+	flex-basis: 40%;
+}
+.fourthrowhead h2{
+	font-size: 22px;
+	font-weight: bold;
+}
+.fourthrowhead p{
+	font-size: 15px;
+	line-height: 1.5;
+	padding: 3% 0;
+}
+.social{
+	display: flex;
+}
+.social i{
+	color: #5EBD8B;
+}
+.social p{
+	padding-left: 5%;
+	padding-bottom: 5%;
+}
+.name {
+	display: flex;
+	justify-content: space-between;
+
+}
+.name p {
+	padding: 2% 30% 2% 2%;
+	background-color: transparent;
+	border:1px solid;
+}
+
+.message p {
+	padding: 10px;
+	height: 200px;
+	background-color: transparent;
+	border:1px solid;
+	margin-top: 5%;
+}
+.sendmessage button {
+	background-color: transparent;
+	text-transform: uppercase;
+	padding: 10px;
+	margin-top: 5%;
+
+}
+
+.footer {
+	padding: 6% 0;
+	background-color:  #FAFAFA;
+	text-align: center;
+}
